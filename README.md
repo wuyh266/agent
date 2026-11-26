@@ -1,22 +1,4 @@
-# NexusAgent —— 从零手写 Go 智能体平台（教学项目源码）
-
-<div align="center">
-
-**这是我《Go 智能体开发实战》系列视频课程的配套项目源码，每一集对应一次可运行的代码演进，跟着视频 + 源码即可完整复现一个生产级 Agent 平台。**
-
-[![Bilibili](https://img.shields.io/badge/B站-课程主页-00A1D6?logo=bilibili&logoColor=white)](https://space.bilibili.com/481791559)
-[![Go](https://img.shields.io/badge/Go-1.26+-00ADD8?logo=go&logoColor=white)](https://go.dev)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-
-**📺 关注我，不错过每一集更新：**
-
-[![Bilibili](https://img.shields.io/badge/🎬_B站_Space-481791559-fb7299?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/481791559)
-
-| 微信公众号 / 交流群 |
-|:---:|
-| <img src="docs/images/vx.png" width="200" alt="微信二维码"/> |
-| 扫码加微信 |
+# NexusAgent —— 从零手写 Go 智能体平台
 
 </div>
 
