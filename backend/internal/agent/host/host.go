@@ -1,4 +1,4 @@
-// Package host Host-Expert 多智能体协作（td.md §8.3.2，Ep 11）。
+// Package host Host-Expert 多智能体协作。
 //
 // 职责分工：
 //   Host（路由者）：理解意图 → 选择最合适的 Expert → 委派 → 聚合转述
