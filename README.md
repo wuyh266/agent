@@ -151,22 +151,4 @@ agent-golang/
 - **端口冲突**：Redis 使用 **6380**（避开本机 6379），Grafana 使用 3004，均可在 `config.yaml` / compose 中调整。
 - **想体验 RAG 但不想起 Milvus**：`config.yaml` 中 `milvus.mode: lite` 可用本地嵌入式模式（仅开发用）。
 
-## 学习路线
 
-配合 B 站视频课程食用，按里程碑推进：
-
-**M1 工程骨架 → M2 ReAct 智能体 → M3 RAG 知识库 → M4 MCP/A2A → M5 工作流 → M6 可观测与上线**
-
-每集均遵循「回顾目标 → Demo → 代码走读 → 验证 → 理论 → 总结」结构，源码以集为单位演进，可在 commit 历史中回看每一集的增量。
-
----
-
-<div align="center">
-
-**如果这个项目对你有帮助，请给个 Star ⭐ 支持一下！**
-
-[![Bilibili](https://img.shields.io/badge/🎬_B站_Space-481791559-fb7299?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/481791559)
-
-<img src="docs/images/vx.png" width="160" alt="微信"/>
-
-</div>
