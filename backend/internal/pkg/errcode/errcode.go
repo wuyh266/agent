@@ -1,5 +1,5 @@
 // Package errcode 统一业务错误码与错误包装。
-// 码段规划（对齐 td.md §6.1）：
+// 码段规划：
 //
 //	1xxxx 参数错误 | 2xxxx 认证鉴权 | 3xxxx Agent/会话 | 4xxxx 限流
 //	5xxxx LLM 上游 | 6xxxx RAG | 7xxxx 工具/沙箱 | 8xxxx MCP/A2A | 9xxxx 系统

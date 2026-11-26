@@ -1,4 +1,4 @@
-// Plan-and-Execute 模式（td.md §8.3，Ep 11）。
+// Plan-and-Execute 模式。
 //
 // 流程：Planner（结构化输出子任务）→ 逐个/并行执行 → Replan（失败时最多 1 次）。
 // 教学要点：复杂任务先"规划"再"执行"，比单轮 ReAct 更可控、Token 更省。

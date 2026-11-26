@@ -1,4 +1,4 @@
-// Prometheus 指标定义（Grafana 看板数据源，对齐 td.md §8.12）。
+// Prometheus 指标定义（Grafana 看板数据源）。
 package observability
 
 import (

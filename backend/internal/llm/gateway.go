@@ -1,4 +1,4 @@
-// LLM 网关主体（td.md §8.1）。
+// LLM 网关主体。
 //
 // 职责：供应商实例管理 + 熔断 + 失败转移 + 重试 + 并发控制 + 计量打点。
 // 网关不查库 —— 调用方（service 层）负责把 model_configs 解析成 ModelDescriptor

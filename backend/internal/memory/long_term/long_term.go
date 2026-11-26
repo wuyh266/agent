@@ -1,4 +1,4 @@
-// Package long_term 长期记忆（mem0 思路：抽取 → 去重合并 → 召回注入，td.md §7.6）。
+// Package long_term 长期记忆（mem0 思路：抽取 → 去重合并 → 召回注入）。
 //
 // 流程：
 //

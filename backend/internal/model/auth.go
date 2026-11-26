@@ -1,4 +1,4 @@
-// Package model 数据库实体定义（与 td.md §5.2 DDL 一一对应）。
+// Package model 数据库实体定义。
 // 认证与用户域。
 package model
 

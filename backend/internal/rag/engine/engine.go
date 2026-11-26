@@ -1,4 +1,4 @@
-// Package engine RAG 引擎（td.md §8.5，Ep 06-08）。
+// Package engine RAG 引擎。
 //
 // 三段式管线，对应三个教学阶段：
 //

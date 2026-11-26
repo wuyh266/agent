@@ -1,6 +1,6 @@
 // Provider 接口：所有模型供应商的统一抽象。
 //
-// 设计原则（td.md §8.1）：
+// 设计原则：
 //   - 所有 OpenAI 兼容供应商共用 openaiCompatibleProvider，仅配置差异；
 //   - 豆包 Ark 本质也是 OpenAI 兼容（/api/v3），Ollama 提供 /v1 兼容层 ——
 //     本项目用独立类型做薄封装，教学点：新增供应商只需实现本接口。

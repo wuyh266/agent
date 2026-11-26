@@ -1,4 +1,4 @@
-// Agent 决策链记录（Agent 决策链可视化的数据源，对齐 td.md §8.12）。
+// Agent 决策链记录（Agent 决策链可视化的数据源）。
 //
 // 每个 Agent 运行期间产生的决策事件（计划/思考/工具调用/委派/仲裁）
 // 写入 messages.metadata.agent_trace，前端时间线组件据此渲染"思考过程"。

@@ -1,6 +1,6 @@
 // 模型管理服务：供应商/模型配置 CRUD 与"配置 → 运行时描述符"解析。
 //
-// 教学要点（td.md §8.1）：网关不查库 —— model_configs 是"声明态"（存在 DB、
+// 教学要点：网关不查库 —— model_configs 是"声明态"（存在 DB、
 // api_key 加密），ModelDescriptor 是"运行态"（明文、可直接发起请求）。
 // 桥接两者（查库/解密/组装）正是 service 层的职责。
 package service

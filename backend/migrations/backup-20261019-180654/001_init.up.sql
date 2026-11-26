@@ -1,4 +1,4 @@
--- NexusAgent 初始表结构（对齐 td.md §5.2）
+-- NexusAgent 初始表结构
 -- 规范：主键 BIGSERIAL 或 UUID；时间 TIMESTAMPTZ；灵活配置 JSONB
 
 -- ===== 用户 =====

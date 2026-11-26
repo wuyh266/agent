@@ -1,6 +1,6 @@
-// Agent 运行时：生产级 ReAct 循环（td.md §8.3）。
+// Agent 运行时：生产级 ReAct 循环。
 //
-// 与 naive 版的差异（Ep 03 分屏对照的讲点）：
+// 与 naive 版的差异：
 //   ① 事件流架构：Run 返回 <-chan Event，SSE/WebSocket/CLI 消费同一份事件
 //   ② 决策链采集：每一步 Thought/Action/Observation 进 agent_trace
 //   ③ 指标与安全阀完整：迭代上限 / 单步+总超时 / Token 预算

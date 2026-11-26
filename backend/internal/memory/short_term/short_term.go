@@ -1,4 +1,4 @@
-// Package memory 记忆系统（td.md §8.4）。
+// Package memory 记忆系统。
 //
 // 短期记忆三策略：滑动窗口 → 裁剪最旧工具消息 → 摘要压缩。
 // 本文件：窗口管理与 Token 预算。

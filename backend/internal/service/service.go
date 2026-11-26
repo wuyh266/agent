@@ -1,4 +1,4 @@
-// Package service 业务编排层（td.md §7）。
+// Package service 业务编排层。
 //
 // 职责：组合 repo/llm 网关/RAG 引擎/记忆/工作流等组件，实现面向用例的业务逻辑。
 // 事务边界、错误码转换、权限校验都发生在这一层；handler 只做协议适配。

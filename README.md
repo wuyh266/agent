@@ -1,6 +1,6 @@
 # 从零手写 Go 智能体平台
 
-本项目是一个用 Go 实现的**通用智能体（Agent）平台**，提供流式对话、知识库检索、多智能体协作和工作流编排。
+Nexus-Agent 是一个用 Go 实现的**通用智能体（Agent）平台**，提供流式对话、知识库检索、多智能体协作和工作流编排。
 
 - **ReAct 智能体**支持 Function Calling。运行时根据模型输出执行工具并回传结果，通过 SSE 在控制台展示回复、工具调用和模型返回的推理内容。
 - **RAG 知识库**支持文档上传、解析、分块和向量化。检索结合 Milvus 稠密向量与 PostgreSQL 关键词检索，用 RRF 融合排名，并支持可选的模型重排和检索测试台。
@@ -15,12 +15,12 @@
 
 ## 技术栈
 
-| 层 | 技术 |
-| --- | --- |
-| 后端 | Go 1.26 · Hertz · GORM · PostgreSQL 16 · Redis 7 · Kafka 4.1 · Milvus 2.5 · MinIO · golang-migrate |
-| AI / Agent | DeepSeek / Ollama（OpenAI 兼容协议）· Go Agent Runtime · MCP Client · Docker 代码沙箱 · SearXNG |
-| 前端 | React 18.3 · TypeScript 5.6 · Tailwind CSS 3.4 · GSAP 3.13 · Zustand 5 · React Router 6 · Vite 5 |
-| 可观测性 | OpenTelemetry · Jaeger · Prometheus · Grafana · zap |
+| 层         | 技术                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------- |
+| 后端       | Go 1.26 · Hertz · GORM · PostgreSQL 16 · Redis 7 · Kafka 4.1 · Milvus 2.5 · MinIO · golang-migrate |
+| AI / Agent | DeepSeek / Ollama（OpenAI 兼容协议）· Go Agent Runtime · MCP Client · Docker 代码沙箱 · SearXNG    |
+| 前端       | React 18.3 · TypeScript 5.6 · Tailwind CSS 3.4 · GSAP 3.13 · Zustand 5 · React Router 6 · Vite 5   |
+| 可观测性   | OpenTelemetry · Jaeger · Prometheus · Grafana · zap                                                |
 
 ## 快速开始
 
@@ -163,21 +163,21 @@ Nexus-Agent/
 
 ## 常用端口速查
 
-| 服务 | 默认地址 | 说明 |
-| --- | --- | --- |
-| 前端控制台 | [localhost:5173](http://localhost:5173) | 本地管理员 `admin / admin123` |
-| 后端 API | [localhost:8080](http://localhost:8080/healthz) | REST、SSE 与健康检查 |
-| A2A | [localhost:8082](http://localhost:8082/.well-known/agent.json) | Agent 名片与远程调用 |
-| PostgreSQL | `127.0.0.1:5432` | 业务数据、文档元数据与 Outbox |
-| Redis | `127.0.0.1:6380` | 宿主机端口映射到容器内的 `6379` |
-| Kafka | `127.0.0.1:9092` | 文档索引任务与死信队列 |
-| MinIO | `127.0.0.1:9000` · [localhost:9001](http://localhost:9001) | 对象存储 API 与管理控制台 |
-| Milvus | `127.0.0.1:19530` | 向量检索 gRPC 端口 |
-| Ollama | [localhost:11434](http://localhost:11434) | 本地模型服务 |
-| SearXNG | [localhost:8081](http://localhost:8081) | 联网搜索 |
-| Jaeger | [localhost:16686](http://localhost:16686) | 链路追踪，需启用 `obs` |
-| Prometheus | [localhost:9090](http://localhost:9090) | 指标查询，需启用 `obs` |
-| Grafana | [localhost:3004](http://localhost:3004) | 监控面板，需启用 `obs` |
+| 服务       | 默认地址                                                       | 说明                            |
+| ---------- | -------------------------------------------------------------- | ------------------------------- |
+| 前端控制台 | [localhost:5173](http://localhost:5173)                        | 本地管理员 `admin / admin123`   |
+| 后端 API   | [localhost:8080](http://localhost:8080/healthz)                | REST、SSE 与健康检查            |
+| A2A        | [localhost:8082](http://localhost:8082/.well-known/agent.json) | Agent 名片与远程调用            |
+| PostgreSQL | `127.0.0.1:5432`                                               | 业务数据、文档元数据与 Outbox   |
+| Redis      | `127.0.0.1:6380`                                               | 宿主机端口映射到容器内的 `6379` |
+| Kafka      | `127.0.0.1:9092`                                               | 文档索引任务与死信队列          |
+| MinIO      | `127.0.0.1:9000` · [localhost:9001](http://localhost:9001)     | 对象存储 API 与管理控制台       |
+| Milvus     | `127.0.0.1:19530`                                              | 向量检索 gRPC 端口              |
+| Ollama     | [localhost:11434](http://localhost:11434)                      | 本地模型服务                    |
+| SearXNG    | [localhost:8081](http://localhost:8081)                        | 联网搜索                        |
+| Jaeger     | [localhost:16686](http://localhost:16686)                      | 链路追踪，需启用 `obs`          |
+| Prometheus | [localhost:9090](http://localhost:9090)                        | 指标查询，需启用 `obs`          |
+| Grafana    | [localhost:3004](http://localhost:3004)                        | 监控面板，需启用 `obs`          |
 
 ## 常见问题
 

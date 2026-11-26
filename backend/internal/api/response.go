@@ -1,4 +1,4 @@
-// Package api HTTP 接口层（Hertz，td.md §7.2）。
+// Package api HTTP 接口层。
 //
 // 职责边界：协议适配（JSON 编解码 / SSE 转写 / 参数解析 / 认证鉴权），
 // 不写业务逻辑 —— 业务在 service 层。

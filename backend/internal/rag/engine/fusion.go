@@ -1,4 +1,4 @@
-// RRF（Reciprocal Rank Fusion）融合与查询预处理（Ep 07 教学点）。
+// RRF（Reciprocal Rank Fusion）融合与查询预处理。
 //
 // RRF 公式：score(d) = Σ 1/(k + rank_i(d))
 //

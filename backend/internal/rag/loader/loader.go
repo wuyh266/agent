@@ -1,4 +1,4 @@
-// Package rag RAG 引擎：Loader 文档加载（td.md §8.5，Ep 06）。
+// Package rag RAG 引擎：Loader 文档加载。
 //
 // 支持格式与实现取舍（教学点：依赖最小化）：
 //   - txt/md/html：纯 Go 读文件 + HTML 去标签；

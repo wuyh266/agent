@@ -1,6 +1,6 @@
 // Package observability 可观测性：OpenTelemetry 追踪初始化。
 // 全链路：HTTP 中间件 → service → agent 每一步决策 → LLM/工具调用 都产生 span，
-// 导出 OTLP → Jaeger 可视化（Ep 16）。
+// 导出 OTLP → Jaeger 可视化）。
 package observability
 
 import (

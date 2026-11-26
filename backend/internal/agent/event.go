@@ -1,7 +1,7 @@
 // Package agent Agent 核心：事件协议定义。
 //
 // AgentRunner 产出的统一事件流（Channel），handler 层负责转写为 SSE/WebSocket
-// （事件类型与 SSE 协议一一对应，见 td.md §6.4）。
+// （事件类型与 SSE 协议一一对应）。
 package agent
 
 // 事件类型常量（与 SSE event 名一致）。

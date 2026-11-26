@@ -1,4 +1,4 @@
-// Package mcp MCP（Model Context Protocol）客户端（td.md §8.9，Ep 14）。
+// Package mcp MCP（Model Context Protocol）客户端。
 //
 // MCP 是 Anthropic 提出的工具/资源接入开放协议，2025 年成为行业标准。
 // 本文件实现 Streamable HTTP 传输的客户端 —— 一切皆是 JSON-RPC 2.0：

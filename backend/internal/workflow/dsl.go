@@ -1,4 +1,4 @@
-// Package workflow 工作流引擎（td.md §8.8，Ep 12-13）。
+// Package workflow 工作流引擎。
 //
 // 本文件：YAML DSL 解析与静态校验。
 // DSL 设计原则（教学点）：编排与执行分离 —— YAML 描述"做什么"，

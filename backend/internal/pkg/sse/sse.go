@@ -1,5 +1,5 @@
 // Package sse SSE 事件编码器：将内部 AgentEvent 统一转写为 text/event-stream 格式。
-// 事件协议对齐 td.md §6.4：meta/delta/reasoning/plan/tool_call/tool_result/
+// 事件协议对齐 ：meta/delta/reasoning/plan/tool_call/tool_result/
 // agent_event/refs/usage/approval/done/error
 package sse
 

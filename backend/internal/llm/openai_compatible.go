@@ -1,6 +1,6 @@
 // OpenAI 兼容协议实现：覆盖 DeepSeek / 通义 / 智谱 / Kimi / 豆包 Ark / Ollama。
 //
-// 教学要点（Ep 02）：
+// 教学要点：
 //   1. Chat Completions 的消息协议：assistant 的 tool_calls 如何回传、tool 消息如何接续；
 //   2. SSE 流式解析：delta 增量拼接、tool_calls 按 index 聚合片段、[DONE] 终止帧；
 //   3. 手写 SSE 解析是理解"流式输出本质"的最佳练习（对比 eino 内部实现）。
