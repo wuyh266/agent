@@ -1,4 +1,4 @@
-// A2A 服务端：把本平台的 Agent 暴露为 A2A 可调用节点（Ep 14 演示）。
+// A2A 服务端：把本平台的 Agent 暴露为 A2A 可调用节点。
 //
 // 端点：
 //   GET  /.well-known/agent.json   名片自描述
