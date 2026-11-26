@@ -1,4 +1,4 @@
-// Package a2a A2A（Agent-to-Agent）协议实现（td.md §8.10，Ep 14）。
+// Package a2a A2A（Agent-to-Agent）协议实现。
 //
 // 本文件：协议类型定义（Agent Card / 任务 / 消息）。
 // A2A 是 Google 提出的 Agent 互联开放协议：Agent 通过"名片"（Agent Card）
